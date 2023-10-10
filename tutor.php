@@ -72,9 +72,28 @@
     myTest3();
     myTest3();
 
-
+    #echo statement
+    echo "<h2> PHP is Fun</h2>";
+    echo "Hello World <br>";
+    echo "Learn PHP <br>";
+    echo "String", "ini", "dibuat", "dengan", "multi parameters.";
     
-    ###########
+    #Display Variable
+    $tx1 = "Learn PHP";
+    $tx2 = "My Book";
+    $aa = 5;
+    $bb = 3;
+
+    echo "<h2>" . $tx1 . "</h2>";
+    echo "Belajar PHP di " . $tx2 . "<br>";
+    echo $aa + $bb;
+    
+    #PHP print statement = print hanya pernyataan sedangkan echo adalah fungsi, memiliki kebutuhan yang berbeda meskipun sama-sama untuk menampilkan output
+    print "<h2>Belajar PHP</h2>";
+    print "Belajar PHP di " . $tx2 . "<br>";
+    print $aa + $bb;
+    
+    ########
 
     ?>
 </body>
